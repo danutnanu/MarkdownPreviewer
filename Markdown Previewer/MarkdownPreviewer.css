@@ -1,0 +1,161 @@
+* {
+    padding-left: 7px;
+  }
+  
+  h1 {
+    padding-top: 30px;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  #edit-tab, #preview-tab {
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+  }
+  
+  #preview-tab {
+    padding-left: 880px; 
+  }
+  
+  .container {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+  }
+  
+  .left {
+    width: 95%;
+    height: 90vh;
+  } 
+  
+  .right {
+    width: 95%;
+    height: 90vh;
+    border-top: 1px solid;
+    overflow: auto;
+    font-family: 'Abel', Arial, sans-serif;
+  }
+  
+  #editor {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    padding: .25vw;
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Source Code Pro', monospace;
+    letter-spacing: 1px;
+  }
+  
+  #preview {
+    padding: .5vw;
+  }
+  
+  code {
+    background-color: #444857;
+    color: #ffffff;
+    padding: .25vw .5vw;
+    border-radius: 5px;
+  }
+  
+  pre code {
+    background-color: #292e5e;
+    color: white;
+    padding: .25vw .5vw; 
+    display: inline-block;
+  }
+  
+  footer {
+    bottom: 0;
+    font-size: 12px;
+    left: 0;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    padding: 12px 0;
+    text-align: center;
+    right: 0;
+    width: 100%;
+    border-radius: 5px;
+    font-family: 'Roboto Mono', monospace;
+    color: #4da6ff;
+  }
+  
+  /* Highlight.js */
+  .hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    color: #abb2bf;
+    background: #282c34;
+  }
+  
+  .hljs-comment,
+  .hljs-quote {
+    color: #5c6370;
+    font-style: italic;
+  }
+  
+  .hljs-doctag,
+  .hljs-keyword,
+  .hljs-formula {
+    color: #c678dd;
+  }
+  
+  .hljs-section,
+  .hljs-name,
+  .hljs-selector-tag,
+  .hljs-deletion,
+  .hljs-subst {
+    color: #e06c75;
+  }
+  
+  .hljs-literal {
+    color: #56b6c2;
+  }
+  
+  .hljs-string,
+  .hljs-regexp,
+  .hljs-addition,
+  .hljs-attribute,
+  .hljs-meta-string {
+    color: #47cc6c;
+  }
+  
+  .hljs-built_in,
+  .hljs-class .hljs-title {
+    color: #e6c07b;
+  }
+  
+  .hljs-attr,
+  .hljs-variable,
+  .hljs-template-variable,
+  .hljs-type,
+  .hljs-selector-class,
+  .hljs-selector-attr,
+  .hljs-selector-pseudo,
+  .hljs-number {
+    color: #d19a66;
+  }
+  
+  .hljs-symbol,
+  .hljs-bullet,
+  .hljs-link,
+  .hljs-meta,
+  .hljs-selector-id,
+  .hljs-title {
+    color: #61aeee;
+  }
+  
+  .hljs-emphasis {
+    font-style: italic;
+  }
+  
+  .hljs-strong {
+    font-weight: bold;
+  }
+  
+  .hljs-link {
+    text-decoration: underline;
+  }
